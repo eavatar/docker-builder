@@ -13,8 +13,16 @@ RUN \
     python-dev \
     python-pip \
     python-virtualenv \
-    libzmq3-dev \
     libevent1-dev \
+    libev4 \
+    libev-dev \
+    libssl-dev \
+    libcurl4-gnutls-dev \
+    libexpat1-dev \
+    libncurses5-dev \
+    libxml2-dev \
+    libxslt-dev \
+    libzmq3-dev \
     wget \
     openssl &&\
     rm -rf /var/cache/apt/archives/*.deb &&\
