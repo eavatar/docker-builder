@@ -23,6 +23,7 @@ RUN \
     libxml2-dev \
     libxslt-dev \
     libzmq3-dev \
+    zlib1g-dev \
     wget \
     openssl &&\
     rm -rf /var/cache/apt/archives/*.deb &&\
