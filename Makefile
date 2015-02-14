@@ -1,6 +1,6 @@
 GROUP=eavatar
 NAME=builder
-VERSION=0.1.5
+VERSION=0.1.6
 
 all: build tag
 

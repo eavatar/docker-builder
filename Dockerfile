@@ -45,3 +45,6 @@ RUN \
 # the user in the builder for setting ownership.
 RUN echo ava:x:1000:1000::/home/ava:/bin/bash >> etc/passwd &&\
     echo ava:x:1000: >> etc/group
+
+RUN mkdir -p /home/ava && chown -R ava:ava /home/ava
+
