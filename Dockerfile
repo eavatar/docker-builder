@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.1
+FROM ubuntu:16.04
 MAINTAINER sampot <sam@eavatar.com>
 
 ENV DEBIAN_FRONTEND noninteractive
