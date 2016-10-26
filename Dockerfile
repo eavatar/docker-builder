@@ -32,15 +32,15 @@ RUN \
     rm -rf /tmp/*
 
 RUN \
-    wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.2.tar.gz &&\
-    tar zxvf libsodium-1.0.2.tar.gz &&\
-    cd libsodium-1.0.2 &&\
+    wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.10.tar.gz &&\
+    tar zxvf libsodium-1.0.10.tar.gz &&\
+    cd libsodium-1.0.10 &&\
     ./configure &&\
     make &&\
     make install &&\
     cd .. &&\
-    rm -rf libsodium-1.0.2.tar.gz &&\
-    rm -rf libsodium-1.0.2
+    rm -rf libsodium-1.0.10.tar.gz &&\
+    rm -rf libsodium-1.0.10
 
 # the user in the builder for setting ownership.
 RUN echo ava:x:1000:1000::/home/ava:/bin/bash >> etc/passwd &&\
